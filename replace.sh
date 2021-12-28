@@ -23,7 +23,6 @@ function doReplacePlaceholder() {
 }
 
 function traverseFile() {
-  echo $@
   for file in `ls $1`;
   do
     # 目录
